@@ -1,0 +1,79 @@
+* {
+    
+    /* border: 1px dotted fuchsia;  */
+    background-color:lightblue;
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color:aquamarine; */
+}
+
+.left {
+    flex: 3;
+}
+
+.right {
+    flex: 1;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.fish__name {
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    white-space: pre-line;
+
+}
+.images {
+    flex-wrap: nowrap;
+    max-width: 640px;
+    max-height: 480px;
+    /* background-size: 10px 5px; */
+}
+
+.fishes {
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.quotes {
+    white-space: pre-line;
+    padding-bottom: 20%;
+}
+
+.tip-text {
+    /* display: flex;
+    flex-wrap: nowrap; */
+    /* white-space: pre-line; */
+}
+.title {
+    text-align: center;
+}
+
+.instructions {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    max-height: 200%;
+}
+.Harvesting-Locations {
+   padding-top: 5px;
+}
+
+.tank-level {
+    
+    margin-bottom: -10rem;
+    /* white-space: pre-line; */
+}
+.temp {
+    padding-bottom: -20px;
+}
+
+.salinity {
+    padding-top: 20px;
+}
